@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище DiplomModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Specialization">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Number_of_Seats" Type="int" Nullable="false" />
+          <Property Name="Group_Status" Type="nvarchar" MaxLength="50" />
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Spaces_Left" Type="int" />
+        </EntityType>
+        <EntityType Name="Table_Role">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Role" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="The_Applicant">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="Full_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Passport_Data" Type="bigint" Nullable="false" />
+          <Property Name="Date_of_birth" Type="date" Nullable="false" />
+          <Property Name="Phone_Number" Type="bigint" Nullable="false" />
+          <Property Name="Place_of_Residence" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Specialization" Type="int" Nullable="false" />
+          <Property Name="Average_Score" Type="float" Nullable="false" />
+          <Property Name="Status" Type="nvarchar" MaxLength="50" />
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Login" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Role" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_The_Applicant_Specialization">
+          <End Role="Specialization" Type="Self.Specialization" Multiplicity="1" />
+          <End Role="The_Applicant" Type="Self.The_Applicant" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Specialization">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="The_Applicant">
+              <PropertyRef Name="Specialization" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Table_Role">
+          <End Role="Table_Role" Type="Self.Table_Role" Multiplicity="1" />
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Table_Role">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="Role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище DiplomModelContainer">
+          <EntitySet Name="Specialization" EntityType="Self.Specialization" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Table_Role" EntityType="Self.Table_Role" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="The_Applicant" EntityType="Self.The_Applicant" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_The_Applicant_Specialization" Association="Self.FK_The_Applicant_Specialization">
+            <End Role="Specialization" EntitySet="Specialization" />
+            <End Role="The_Applicant" EntitySet="The_Applicant" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Table_Role" Association="Self.FK_User_Table_Role">
+            <End Role="Table_Role" EntitySet="Table_Role" />
+            <End Role="User" EntitySet="User" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DiplomModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Specialization">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Number_of_Seats" Type="Int32" Nullable="false" />
+          <Property Name="Group_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Spaces_Left" Type="Int32" />
+          <NavigationProperty Name="The_Applicant" Relationship="Self.FK_The_Applicant_Specialization" FromRole="Specialization" ToRole="The_Applicant" />
+        </EntityType>
+        <EntityType Name="Table_Role">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="Self.FK_User_Table_Role" FromRole="Table_Role" ToRole="User" />
+        </EntityType>
+        <EntityType Name="The_Applicant">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="Full_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Passport_Data" Type="Int64" Nullable="false" />
+          <Property Name="Date_of_birth" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Phone_Number" Type="Int64" Nullable="false" />
+          <Property Name="Place_of_Residence" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Specialization" Type="Int32" Nullable="false" />
+          <Property Name="Average_Score" Type="Double" Nullable="false" />
+          <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="Specialization1" Relationship="Self.FK_The_Applicant_Specialization" FromRole="The_Applicant" ToRole="Specialization" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Role" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Table_Role" Relationship="Self.FK_User_Table_Role" FromRole="User" ToRole="Table_Role" />
+        </EntityType>
+        <Association Name="FK_The_Applicant_Specialization">
+          <End Role="Specialization" Type="Self.Specialization" Multiplicity="1" />
+          <End Role="The_Applicant" Type="Self.The_Applicant" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Specialization">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="The_Applicant">
+              <PropertyRef Name="Specialization" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Table_Role">
+          <End Role="Table_Role" Type="Self.Table_Role" Multiplicity="1" />
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Table_Role">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="Role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DiplomEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Specialization" EntityType="Self.Specialization" />
+          <EntitySet Name="Table_Role" EntityType="Self.Table_Role" />
+          <EntitySet Name="The_Applicant" EntityType="Self.The_Applicant" />
+          <EntitySet Name="User" EntityType="Self.User" />
+          <AssociationSet Name="FK_The_Applicant_Specialization" Association="Self.FK_The_Applicant_Specialization">
+            <End Role="Specialization" EntitySet="Specialization" />
+            <End Role="The_Applicant" EntitySet="The_Applicant" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Table_Role" Association="Self.FK_User_Table_Role">
+            <End Role="Table_Role" EntitySet="Table_Role" />
+            <End Role="User" EntitySet="User" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище DiplomModelContainer" CdmEntityContainer="DiplomEntities">
+          <EntitySetMapping Name="Specialization">
+            <EntityTypeMapping TypeName="DiplomModel.Specialization">
+              <MappingFragment StoreEntitySet="Specialization">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Number_of_Seats" ColumnName="Number_of_Seats" />
+                <ScalarProperty Name="Group_Status" ColumnName="Group_Status" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Spaces_Left" ColumnName="Spaces_Left" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Table_Role">
+            <EntityTypeMapping TypeName="DiplomModel.Table_Role">
+              <MappingFragment StoreEntitySet="Table_Role">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Role" ColumnName="Role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="The_Applicant">
+            <EntityTypeMapping TypeName="DiplomModel.The_Applicant">
+              <MappingFragment StoreEntitySet="The_Applicant">
+                <ScalarProperty Name="Full_Name" ColumnName="Full_Name" />
+                <ScalarProperty Name="Passport_Data" ColumnName="Passport_Data" />
+                <ScalarProperty Name="Date_of_birth" ColumnName="Date_of_birth" />
+                <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+                <ScalarProperty Name="Place_of_Residence" ColumnName="Place_of_Residence" />
+                <ScalarProperty Name="Specialization" ColumnName="Specialization" />
+                <ScalarProperty Name="Average_Score" ColumnName="Average_Score" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User">
+            <EntityTypeMapping TypeName="DiplomModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Role" ColumnName="Role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,36 @@
+﻿<Window x:Class="Diplom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplom"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+
+    <Grid Background="#FFC8C8C8">
+
+        <Image HorizontalAlignment="Left" Height="590" Margin="619,-89,0,0" VerticalAlignment="Top" Width="181" Source="/Resourses/2_2.png" RenderTransformOrigin="0.5,0.445"/>
+
+        <Grid Margin="34,0,34,0" Width="400" Height="200" VerticalAlignment="Center" Background="White" Grid.ColumnSpan="2">
+
+            <Border BorderBrush="#FF646464" BorderThickness="1" HorizontalAlignment="Center" Height="200" VerticalAlignment="Center" Width="400"/>
+            <TextBlock Margin="70,16,30,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="&quot;IC&quot; Информационная система для учёта абитуриентов колледжа" Height="35" TextAlignment="Center"/>
+            <PasswordBox KeyUp="PassBlock_Up" x:Name="PassBox" HorizontalAlignment="Left" Margin="140,100,0,0" VerticalAlignment="Top" Width="240" BorderBrush="#FFACACAC"/>
+            <ComboBox x:Name="Login" SelectedItem="{Binding User}" DisplayMemberPath="Login" HorizontalAlignment="Left" Margin="140,70,0,0" VerticalAlignment="Top" Width="240"/>
+            <TextBlock HorizontalAlignment="Left" Margin="50,73,0,0" TextWrapping="Wrap" Text="Пользователь:" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="50,100,0,0" TextWrapping="Wrap" Text="Пароль:" VerticalAlignment="Top"/>
+            <Button Name="Enter" Style="{StaticResource BorderBrush}" Content="Войти" HorizontalAlignment="Center" Margin="0,141,0,0" VerticalAlignment="Top" Click="Button_Click" Width="50"/>
+
+            <Image HorizontalAlignment="Left" Height="47" Margin="10,10,0,0" VerticalAlignment="Top" Width="47" Source="/Resourses/IC.png"/>
+
+        </Grid>
+
+        <Grid Width="800" Height="50" VerticalAlignment="Bottom" Background="White">
+            <Border BorderBrush="Black" Width="802" Height="50" BorderThickness="1" Margin="-1,0,-1,0"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="14" FontWeight="Bold" Text="Version 0.1 &quot;2024&quot;"/>
+        </Grid>
+
+
+    </Grid>
+
+</Window>

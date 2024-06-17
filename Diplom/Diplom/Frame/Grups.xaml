@@ -1,0 +1,31 @@
+﻿<Page x:Class="Diplom.Frame.Grups"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Diplom.Frame"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Grups">
+
+    <Grid>
+
+        <DataGrid x:Name="DGG" Margin="30,35,30,10" Background="#997D7676" BorderBrush="Black" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding ID}" Header="ID" Width="30*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Name}" Header="Название" Width="90*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Number_of_Seats}" Header="Всего мест" Width="90*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Spaces_Left}" Header="Оставшиеся места" Width="90*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Group_Status}" Header="Статус" Width="90*"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button x:Name="addBTN" Style="{StaticResource BorderBrush}" Content="Добавить" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" Width="60" Click="AddG_Click"/>
+        <Button x:Name="editBTN" Style="{StaticResource BorderBrush}" Content="Изменить" HorizontalAlignment="Left" Margin="95,10,0,0" VerticalAlignment="Top" Width="60" Click="EditG_Click"/>
+        <Button x:Name="delBTN" Style="{StaticResource BorderBrush}" Content="Удалить" HorizontalAlignment="Left" Margin="160,10,0,0" VerticalAlignment="Top" Width="60" Click="DeliteG_Click"/>
+        <Button x:Name="repBTN" Style="{StaticResource BorderBrush}" Content="Отчёт" Margin="0,10,30,0" VerticalAlignment="Top" Click="ReportG_Click" HorizontalAlignment="Right" Width="60"/>
+        <Button x:Name="approveBTN" Style="{StaticResource BorderBrush}" Content="Утвердить" HorizontalAlignment="Left" Margin="390,10,0,0" VerticalAlignment="Top" Width="80" Click="Approve_Click" Grid.Column="1"/>
+        <Button x:Name="noapproveBTN" Style="{StaticResource BorderBrush}" Content="Отклонить" HorizontalAlignment="Left" Margin="475,10,0,0" VerticalAlignment="Top" Width="80" Click="noApprove_Click"/>
+
+    </Grid>
+</Page>

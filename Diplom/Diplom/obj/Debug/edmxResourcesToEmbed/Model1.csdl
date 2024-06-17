@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DiplomModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Specialization">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Number_of_Seats" Type="Int32" Nullable="false" />
+    <Property Name="Group_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Spaces_Left" Type="Int32" />
+    <NavigationProperty Name="The_Applicant" Relationship="Self.FK_The_Applicant_Specialization" FromRole="Specialization" ToRole="The_Applicant" />
+  </EntityType>
+  <EntityType Name="Table_Role">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK_User_Table_Role" FromRole="Table_Role" ToRole="User" />
+  </EntityType>
+  <EntityType Name="The_Applicant">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Full_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Passport_Data" Type="Int64" Nullable="false" />
+    <Property Name="Date_of_birth" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Phone_Number" Type="Int64" Nullable="false" />
+    <Property Name="Place_of_Residence" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Specialization" Type="Int32" Nullable="false" />
+    <Property Name="Average_Score" Type="Double" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Specialization1" Relationship="Self.FK_The_Applicant_Specialization" FromRole="The_Applicant" ToRole="Specialization" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Role" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Table_Role" Relationship="Self.FK_User_Table_Role" FromRole="User" ToRole="Table_Role" />
+  </EntityType>
+  <Association Name="FK_The_Applicant_Specialization">
+    <End Role="Specialization" Type="Self.Specialization" Multiplicity="1" />
+    <End Role="The_Applicant" Type="Self.The_Applicant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Specialization">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="The_Applicant">
+        <PropertyRef Name="Specialization" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Table_Role">
+    <End Role="Table_Role" Type="Self.Table_Role" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Table_Role">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="Role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DiplomEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Specialization" EntityType="Self.Specialization" />
+    <EntitySet Name="Table_Role" EntityType="Self.Table_Role" />
+    <EntitySet Name="The_Applicant" EntityType="Self.The_Applicant" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <AssociationSet Name="FK_The_Applicant_Specialization" Association="Self.FK_The_Applicant_Specialization">
+      <End Role="Specialization" EntitySet="Specialization" />
+      <End Role="The_Applicant" EntitySet="The_Applicant" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Table_Role" Association="Self.FK_User_Table_Role">
+      <End Role="Table_Role" EntitySet="Table_Role" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

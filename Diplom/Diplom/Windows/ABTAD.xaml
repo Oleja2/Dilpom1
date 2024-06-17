@@ -1,0 +1,47 @@
+﻿<Window x:Class="Diplom.Windows.ABTAD"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplom.Windows"
+        mc:Ignorable="d"
+        Title="Абитуриенты" Height="333" Width="500" ResizeMode="CanMinimize">
+    <Grid Background="#FFC8C8C8">
+
+        <TextBlock Margin="44,38,0,0" x:Name="textBlockNumber" Foreground="Black" Text="Номер тел" Height="24" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Width="66"/>
+        <TextBlock Margin="44,68,0,0" x:Name="textBlockFullName" Foreground="Black" Height="23" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Width="42" Text="ФИО"/>
+        <TextBlock Margin="44,98,0,0" x:Name="textBlockPassportData" Foreground="Black" Height="23" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Text="Паспорт"/>
+        <TextBlock Margin="44,128,0,0" x:Name="textBlockPlaceOfResidence" Foreground="Black" Height="23" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Width="60"><Run Language="ru-ru" Text="Прописка"/></TextBlock>
+        <TextBlock Margin="44,160,0,0" x:Name="textBlockDateOfBirth" Foreground="Black" Height="23" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Width="85" Text="Дата рождения"/>
+        <TextBlock Margin="44,190,0,0" x:Name="textBlockAverageScore" Foreground="Black" Height="23" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Width="85" Text="Срединй балл"/>
+        <TextBlock Margin="44,220,0,0" x:Name="textBlockSpecialization" Foreground="Black" Height="23" 
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Width="85" Text="Специальность"/>
+
+        <TextBox Text="{Binding Phone_Number}" Margin="0,40,0,0" Name="Number" Background="#997D7676" BorderBrush="Black" 
+             IsEnabled="True" HorizontalAlignment="Center" Width="182" Height="22" VerticalAlignment="Top"/>
+        <TextBox Text="{Binding Full_Name}" Margin="0,70,0,0" Name="FullName" Background="#997D7676" BorderBrush="Black" 
+             IsEnabled="True" HorizontalAlignment="Center" Width="182" Height="22" VerticalAlignment="Top"/>
+        <TextBox Text="{Binding Passport_Data}" Margin="0,100,0,0" Name="PassportData" Background="#997D7676" BorderBrush="Black" 
+             IsEnabled="True" HorizontalAlignment="Center" Width="182" Height="22" VerticalAlignment="Top"/>
+        <TextBox Text="{Binding Place_of_Residence}" Margin="0,130,0,0" Name="PlaceOfResidence" Background="#997D7676" BorderBrush="Black" 
+             IsEnabled="True" HorizontalAlignment="Center" Width="182" Height="22" VerticalAlignment="Top"/>
+        <TextBox Margin="0,160,0,0" Name="DateOfBirth" Background="#997D7676" BorderBrush="Black" 
+             IsEnabled="True" HorizontalAlignment="Center" Width="182" Height="22" VerticalAlignment="Top"/>
+        <TextBox Text="{Binding Average_Score}" Margin="0,190,0,0" Name="AverageScore" Background="#997D7676" BorderBrush="Black" 
+             IsEnabled="True" HorizontalAlignment="Center" Width="182" Height="22" VerticalAlignment="Top"/>
+
+        <ComboBox SelectedItem="{Binding Specialization1}" Margin="0,220,0,0" 
+          DisplayMemberPath="Name" x:Name="Specialization" 
+          HorizontalAlignment="Center" Width="182" Height="23" VerticalAlignment="Top"/>
+
+        <Button x:Name="ADABT" Style="{StaticResource BorderBrush}" Content="Добавить" HorizontalAlignment="Center" VerticalAlignment="Top" Width="70" Click="AddABT_Click" Margin="0,250,0,0"/>
+
+    </Grid>
+
+</Window>

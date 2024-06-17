@@ -1,0 +1,244 @@
+D:\time\Diplom\Diplom\bin\Debug\Diplom.exe.config
+D:\time\Diplom\Diplom\bin\Debug\Diplom.exe
+D:\time\Diplom\Diplom\bin\Debug\Diplom.pdb
+D:\time\Diplom\Diplom\obj\Debug\Diplom.csproj.AssemblyReference.cache
+D:\time\Diplom\Diplom\obj\Debug\App.g.cs
+D:\time\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.cache
+D:\time\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.lref
+D:\time\Diplom\Diplom\obj\Debug\Diplom.g.resources
+D:\time\Diplom\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+D:\time\Diplom\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+D:\time\Diplom\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+D:\time\Diplom\Diplom\obj\Debug\Diplom.exe
+D:\time\Diplom\Diplom\obj\Debug\Diplom.pdb
+D:\time\Diplom\Diplom\obj\Debug\App.baml
+D:\time\Diplom\Diplom\obj\Debug\Windows\Login.g.cs
+D:\time\Diplom\Diplom\obj\Debug\Windows\Login.baml
+D:\time\Diplom\Diplom\obj\Debug\Windows\Main.g.cs
+D:\time\Diplom\Diplom\obj\Debug\Windows\Main.baml
+D:\time\Diplom\Diplom\obj\Debug\Frame\Grups.g.cs
+D:\time\Diplom\Diplom\obj\Debug\Frame\Grups.baml
+D:\time\Diplom\Diplom\obj\Debug\Frame\ABT.g.cs
+D:\time\Diplom\Diplom\obj\Debug\Frame\ABT.baml
+D:\time\Diplom\Diplom\obj\Debug\Frame\Lists.g.cs
+D:\time\Diplom\Diplom\obj\Debug\Frame\Lists.baml
+D:\time\Diplom\Diplom\obj\Debug\Windows\RejectW.g.cs
+D:\time\Diplom\Diplom\obj\Debug\Windows\RejectW.baml
+D:\time\Diplom\Diplom\obj\Debug\Windows\ABTAD.g.cs
+D:\time\Diplom\Diplom\obj\Debug\Windows\GrupsAD.g.cs
+D:\time\Diplom\Diplom\obj\Debug\Windows\ABTAD.baml
+D:\time\Diplom\Diplom\obj\Debug\Windows\GrupsAD.baml
+D:\time\Diplom\Diplom\bin\Debug\EntityFramework.dll
+D:\time\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+D:\time\Diplom\Diplom\bin\Debug\EntityFramework.xml
+D:\time\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+D:\time\Diplom\Diplom\bin\Debug\ru\EntityFramework.resources.dll
+D:\time\Diplom\Diplom\obj\Debug\Diplom_Content.g.cs
+D:\time\Diplom\Diplom\obj\Debug\Diplom.csproj.CopyComplete
+C:\Users\shume\Desktop\time\Diplom\Diplom\bin\Debug\Diplom.exe.config
+C:\Users\shume\Desktop\time\Diplom\Diplom\bin\Debug\Diplom.exe
+C:\Users\shume\Desktop\time\Diplom\Diplom\bin\Debug\Diplom.pdb
+C:\Users\shume\Desktop\time\Diplom\Diplom\bin\Debug\EntityFramework.dll
+C:\Users\shume\Desktop\time\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shume\Desktop\time\Diplom\Diplom\bin\Debug\EntityFramework.xml
+C:\Users\shume\Desktop\time\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shume\Desktop\time\Diplom\Diplom\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.csproj.AssemblyReference.cache
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.csproj.SuggestedBindingRedirects.cache
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Frame\ABT.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Frame\Grups.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Frame\Lists.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\ABTAD.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\GrupsAD.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\Login.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\Main.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\RejectW.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\App.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom_Content.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.cache
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.lref
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\App.baml
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Frame\ABT.baml
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Frame\Grups.baml
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Frame\Lists.baml
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\ABTAD.baml
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\GrupsAD.baml
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\Login.baml
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\Main.baml
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\RejectW.baml
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.g.resources
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.csproj.CopyComplete
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.exe
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.pdb
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.csproj.ResolveComReference.cache
+C:\Users\olegr\Desktop\time\Diplom\Diplom\bin\Debug\Diplom.exe.config
+C:\Users\olegr\Desktop\time\Diplom\Diplom\bin\Debug\Diplom.exe
+C:\Users\olegr\Desktop\time\Diplom\Diplom\bin\Debug\Diplom.pdb
+C:\Users\olegr\Desktop\time\Diplom\Diplom\bin\Debug\EntityFramework.dll
+C:\Users\olegr\Desktop\time\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\olegr\Desktop\time\Diplom\Diplom\bin\Debug\EntityFramework.xml
+C:\Users\olegr\Desktop\time\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\olegr\Desktop\time\Diplom\Diplom\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.csproj.AssemblyReference.cache
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.csproj.ResolveComReference.cache
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Frame\ABT.g.cs
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Frame\Grups.g.cs
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Frame\Lists.g.cs
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Windows\ABTAD.g.cs
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Windows\GrupsAD.g.cs
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Windows\Login.g.cs
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Windows\Main.g.cs
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Windows\RejectW.g.cs
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\App.g.cs
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom_Content.g.cs
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.cache
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.lref
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\App.baml
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Frame\ABT.baml
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Frame\Grups.baml
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Frame\Lists.baml
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Windows\ABTAD.baml
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Windows\GrupsAD.baml
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Windows\Login.baml
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Windows\Main.baml
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Windows\RejectW.baml
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.g.resources
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.csproj.CopyComplete
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.exe
+C:\Users\olegr\Desktop\time\Diplom\Diplom\obj\Debug\Diplom.pdb
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Frame\Users.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\UsersAD.g.cs
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Frame\Users.baml
+C:\Users\shume\Desktop\time\Diplom\Diplom\obj\Debug\Windows\UsersAD.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\bin\Debug\Diplom.exe.config
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\bin\Debug\Diplom.exe
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\bin\Debug\Diplom.pdb
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\bin\Debug\EntityFramework.dll
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\bin\Debug\EntityFramework.xml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom.csproj.AssemblyReference.cache
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom.csproj.ResolveComReference.cache
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Frame\ABT.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Frame\Grups.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Frame\Lists.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Frame\Users.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\ABTAD.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\GrupsAD.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\Login.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\Main.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\RejectW.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\UsersAD.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\App.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom_Content.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.cache
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.lref
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\App.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Frame\ABT.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Frame\Grups.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Frame\Lists.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Frame\Users.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\ABTAD.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\GrupsAD.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\Login.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\Main.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\RejectW.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Windows\UsersAD.baml
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom.g.resources
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom.csproj.CopyComplete
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom.exe
+C:\Users\olegr\Desktop\Новая папка (2)\time\Diplom\Diplom\obj\Debug\Diplom.pdb
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\bin\Debug\Diplom.exe.config
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\bin\Debug\Diplom.exe
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\bin\Debug\Diplom.pdb
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\bin\Debug\EntityFramework.dll
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\bin\Debug\EntityFramework.xml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.csproj.AssemblyReference.cache
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.csproj.ResolveComReference.cache
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\ABT.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Grups.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Lists.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Users.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\ABTAD.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\GrupsAD.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\Login.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\Main.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\RejectW.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\UsersAD.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\App.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom_Content.g.cs
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.cache
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.lref
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\App.baml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\ABT.baml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Grups.baml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Lists.baml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Users.baml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\ABTAD.baml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\GrupsAD.baml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\Login.baml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\Main.baml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\RejectW.baml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\UsersAD.baml
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.g.resources
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.csproj.CopyComplete
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.exe
+C:\Users\olegr\Desktop\Новая папка (2)\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.pdb
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\bin\Debug\Diplom.exe.config
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\bin\Debug\Diplom.exe
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\bin\Debug\Diplom.pdb
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\bin\Debug\EntityFramework.dll
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\bin\Debug\EntityFramework.xml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.csproj.AssemblyReference.cache
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.csproj.ResolveComReference.cache
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\ABT.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Grups.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Lists.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Users.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\ABTAD.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\GrupsAD.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\Login.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\Main.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\RejectW.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\UsersAD.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\App.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom_Content.g.cs
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.cache
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom_MarkupCompile.lref
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\App.baml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\ABT.baml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Grups.baml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Lists.baml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Frame\Users.baml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\ABTAD.baml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\GrupsAD.baml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\Login.baml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\Main.baml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\RejectW.baml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Windows\UsersAD.baml
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.g.resources
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.csproj.CopyComplete
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.exe
+C:\Users\olegr\Desktop\Учебная часть ИС\ИС учебная часть\Diplom\Diplom\obj\Debug\Diplom.pdb
